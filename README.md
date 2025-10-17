@@ -9,3 +9,6 @@ Deciding on what my 4 components for my protype would be. These are a button tha
 
 Had an error message appear relating to the packet manager. To rectify this issue I select the remove option for the JetBrains Rider Editor. This seems to have fixed the problem. I did this for all 4 prototype Unity files.
 <img width="1918" height="1008" alt="image" src="https://github.com/user-attachments/assets/f9c3fbb0-f65e-4be5-9d80-526eb5032cfe" />
+
+## 17/10/25
+I had a problem where the ground, walls and player where all the same colour and difficult to tell apart. To fix this I created a new material - with the help of a tutorial linked here: https://www.youtube.com/watch?v=vhZtjL4Buik - to change the colour of the player.
