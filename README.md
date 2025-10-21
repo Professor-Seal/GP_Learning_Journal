@@ -14,4 +14,6 @@ Had an error message appear relating to the packet manager. To rectify this issu
 I had a problem where the ground, walls and player where all the same colour and difficult to tell apart. To fix this I created a new material - with the help of a tutorial linked here: https://www.youtube.com/watch?v=vhZtjL4Buik - to change the colour of the player.
 
 ## 21/10/25
-I came accross an error today from the player jump script. The player could jump but only once and then was unable to jump again. Looking in the inspector the error came from the OnGround check being faulty.
+I came accross an error today from the player jump script. The player could jump but only once and then was unable to jump again. Looking in the inspector the error came from the OnGround check being faulty. To fix this I changed the OnTriggerEnter function to an OnCollisionEnter function.
+
+I also had an error with the double jump, where the player could infinetly jump. To solve this I created a nested if statement to check whether the player is on the ground and if they are they can jump and if the player is not on the ground they can press jump again but only 1 time until they are on the groudn again.
