@@ -12,6 +12,3 @@ Had an error message appear relating to the packet manager. To rectify this issu
 
 ## 17/10/25
 I had a problem where the ground, walls and player where all the same colour and difficult to tell apart. To fix this I created a new material - with the help of a tutorial linked here: https://www.youtube.com/watch?v=vhZtjL4Buik - to change the colour of the player.
-
-## 21/10/25
-I have decided to change the wall climb movement to just be player movement and double jump. This is becuase the wall climb is too complicated for me to do in the timeframe given.
