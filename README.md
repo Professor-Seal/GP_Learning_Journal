@@ -25,4 +25,4 @@ I had another bug where the projectiles weren't spawning. I relisedn that the fu
 
 However, the game still didn't spawn the projectiles. I managed to fix this problem by creating an If statement in the Update function. But this created a new issue where the enemy moves along the negative Z axis. This problem was fixed when I added movement to the projectile but this created its own bug.
 
-The bug was when the enemy shot the projectile at the player, the enemy rotated on its x, y and z axis.
+The bug was when the enemy shot the projectile at the player, the enemy rotated on its x, y and z axis. To fix this I set the spawn point of the projectile to be outside of the enemy.
