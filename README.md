@@ -19,4 +19,4 @@ I came accross an error today from the player jump script. The player could jump
 I also had an error with the double jump, where the player could infinetly jump. To solve this I created a nested if statement to check whether the player is on the ground and if they are they can jump and if the player is not on the ground they can press jump again but only 1 time until they are on the groudn again.
 
 ## 28/10/25
-I had an error with my enemy projectiels where the procetiles weren't spawinging in the right place and were floating upwards when the game was played. The problem was I was using a tutorial for 2D projectiles instead of a tutorial for 3D projectiles.
+I had an error with my enemy projectiels where the procetiles weren't spawinging in the right place and were floating upwards when the game was played. The problem was I was using a tutorial for 2D projectiles instead of a tutorial for 3D projectiles. So I had to find a different tutorial for a 3D projectile.
