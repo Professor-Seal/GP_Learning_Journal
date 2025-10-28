@@ -20,3 +20,5 @@ I also had an error with the double jump, where the player could infinetly jump.
 
 ## 28/10/25
 I had an error with my enemy projectiels where the procetiles weren't spawinging in the right place and were floating upwards when the game was played. The problem was I was using a tutorial for 2D projectiles instead of a tutorial for 3D projectiles. So I had to find a different tutorial for a 3D projectile.
+
+I had another bug where the projectiles weren't spawning. I relisedn that the function I had written to spawn the projectiles wasn't being called so to fix this I put the shootAtPlayer function inside the Update function so it can be called.
