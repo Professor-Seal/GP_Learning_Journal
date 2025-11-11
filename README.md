@@ -28,3 +28,6 @@ However, the game still didn't spawn the projectiles. I managed to fix this prob
 The bug was when the enemy shot the projectile at the player, the enemy rotated on its x, y and z axis. To fix this I set the spawn point of the projectile to be outside of the enemy.
 
 An bug that occured later was that the projectile would not kill/ do damage to the player when it collides with them. To fix this I changed the OnTriggerEnter function to the OnCollisionEnter function.
+
+##11/11/25
+Today I was working on a button that when pressed would open a door fort eh player to then walk through (following this tutorial - https://www.youtube.com/watch?v=DNKGe3IyPs4), however I had an error occur where nothing happend when the player steeped on the button. To fix this I change the OnTriggerEnter and OnTriggerExit functions to their Collision counterparts.
