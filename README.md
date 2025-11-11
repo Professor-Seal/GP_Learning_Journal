@@ -31,3 +31,5 @@ An bug that occured later was that the projectile would not kill/ do damage to t
 
 ## 11/11/25
 Today I was working on a button that when pressed would open a door fort eh player to then walk through (following this tutorial - https://www.youtube.com/watch?v=DNKGe3IyPs4), however I had an error occur where nothing happend when the player steeped on the button. To fix this I change the OnTriggerEnter and OnTriggerExit functions to their Collision counterparts.
+
+Another bug that I came across was that when the player interacted with the button, the door did not open. I could manually open the door by changing the _isDoorOpen variable from false to true in the Untiy Inspector when the game was running.
