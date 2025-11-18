@@ -35,3 +35,6 @@ Today I was working on a button that when pressed would open a door fort eh play
 Another bug that I came across was that when the player interacted with the button, the door did not open. I could manually open the door by changing the _isDoorOpen variable from false to true in the Untiy Inspector when the game was running. After experimenting I discovered that button does work with the door but only if the _isDoorOpen variable is set to true before the game runs.
 
 To fix this issue I had to change one function to include the not (!) command.
+
+## 18/11/25
+Today I was working on making a camera perspective switch but couldn't figure out how to do it so I deceide to change to something easier - Player Power-Ups.
