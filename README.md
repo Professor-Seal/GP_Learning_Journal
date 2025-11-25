@@ -39,3 +39,8 @@ To fix this issue I had to change one function to include the not (!) command.
 ## 18/11/25
 Today I was working on making a camera perspective switch but couldn't figure out how to do it so I deceide to change to something easier - Player Power-Ups.
 I had an issue with changing the player's colour when collecting up a power up. I had help to fix this issue. And the method of fixing was to call the Player colour from the player rendere into the script and then set a change colour command using an if statement depening on which power up the player picks up. I also created a timer that resets the player back to normal after a certain time has passed.
+
+## 25/11/25
+I was working on my pplayer projectiloes and had and error where the Input Button space was not setup to be used for the game. 
+
+<img width="385" height="71" alt="image" src="https://github.com/user-attachments/assets/a77a584b-6de7-49af-a374-834c72039386" />
