@@ -45,4 +45,4 @@ I was working on my pplayer projectiloes and had and error where the Input Butto
 
 <img width="385" height="71" alt="image" src="https://github.com/user-attachments/assets/a77a584b-6de7-49af-a374-834c72039386" />
 
-After I got the projectile working I came accross another problem, the projectile did not destroy itself when colliding with the enemy, instead it pushed the enemy backwards until the enemy collided with the wall and then the projectile went through the enemy and the wall, it then continued to travel off screen.
+After I got the projectile working I came accross another problem, the projectile did not destroy itself when colliding with the enemy, instead it pushed the enemy backwards until the enemy collided with the wall and then the projectile went through the enemy and the wall, it then continued to travel off screen. To fix this issue I changed the OnCollisionEnter function to an OnTriggerEnter function.
