@@ -44,3 +44,5 @@ I had an issue with changing the player's colour when collecting up a power up. 
 I was working on my pplayer projectiloes and had and error where the Input Button space was not setup to be used for the game. To fix this I changed the GetkeyDown from Space to Fire1 and then changed what button Fire1 is related to in the Input Manager to be the space bar.
 
 <img width="385" height="71" alt="image" src="https://github.com/user-attachments/assets/a77a584b-6de7-49af-a374-834c72039386" />
+
+After I got the projectile working I came accross another problem, the projectile did not destroy itself when colliding with the enemy, instead it pushed the enemy backwards until the enemy collided with the wall and then the projectile went through the enemy and the wall, it then continued to travel off screen.
