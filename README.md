@@ -48,3 +48,9 @@ I was working on my pplayer projectiloes and had and error where the Input Butto
 After I got the projectile working I came accross another problem, the projectile did not destroy itself when colliding with the enemy, instead it pushed the enemy backwards until the enemy collided with the wall and then the projectile went through the enemy and the wall, it then continued to travel off screen. To fix this issue I changed the OnCollisionEnter function to an OnTriggerEnter function.
 
 Next, I had to fix the issue that the player could constantly spam the projectiles even without picking up the power up. To fix this I created a canFire bool variable then made an ActivateFire function to change the bool between true and false if the player has picked a power up or not.
+
+## 28/12/25
+I found a bug when the player collects one power up and then they collect anoother power up they can still fire both types of projectiles. To fix this issue is set the canFireFire and canFireIce bool to false for the corresponding power up/ projectile types.
+
+## 02/12/25
+Today I had a bug with the AOE damage from the projectile. The projectile could only damage 1 enemy instead of the enemies in the radius even when the radius was set to 100 and definitely included more than 1 enemy.
