@@ -53,4 +53,4 @@ Next, I had to fix the issue that the player could constantly spam the projectil
 I found a bug when the player collects one power up and then they collect anoother power up they can still fire both types of projectiles. To fix this issue is set the canFireFire and canFireIce bool to false for the corresponding power up/ projectile types.
 
 ## 02/12/25
-Today I had a bug with the AOE damage from the projectile. The projectile could only damage 1 enemy instead of the enemies in the radius even when the radius was set to 100 and definitely included more than 1 enemy.
+I fixed the bug that the projectiles could go through walls by adding a collider event to the projectile movement script.
