@@ -57,3 +57,6 @@ I fixed the bug that the projectiles could go through walls by adding a collider
 
 ## 09/12/25
 When creating my game prototype i ahd a but where th enemies would move through the points they where supposed to collide with and change direction when they hit them. Instead the enemies where passing through the objects. This was due to hoew is et up the doe as Point B was on the left on the enemy and point A was on the right. Due to the enemy direction starting from right to left the code stated that when the enemy collides with point B change direction and start going from left to right but point B was on the left of the enemy to begin with and so would never collide with point B to change direction. To fix this I flipped the points around so that the enemy hit the correct point first.
+
+## 16/12/25
+When ading my final component - enemy projectiles - to my game prototype, I ran into an error where I couldn't change the speed of the projectile. This was due to me assigning a projectileSpeed variable to the script but not using the variable in the script (so it was set but not used). To fix this bug I changed my script so that the enemy projectile uses the projectileSpeed variable I had assigned to it.
